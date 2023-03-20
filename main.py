@@ -1,11 +1,11 @@
-def encode(user_password):  # encodes user password and adds 3 to each value place in the string
-    encoded_password = ""
+def encode(user_password):  # Jack Berman
+    encoded_password = ""  # encodes user password and adds 3 to each value place in the string
     for value in user_password:
         new_digit = str((int(value) + 3) % 10)
         encoded_password = encoded_password + new_digit
     return encoded_password
 
-
+# hhhhhhhhwefwgrg
 def main():
     while True:
         print("Menu\n----------\n1.  Encode\n2.  Decode\n3.  Quit")  # prints menu for program
