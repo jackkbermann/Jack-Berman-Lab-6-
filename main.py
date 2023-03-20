@@ -5,7 +5,6 @@ def encode(user_password):  # Jack Berman
         encoded_password = encoded_password + new_digit
     return encoded_password
 
-# hhhhhhhhwefwgrg
 def main():
     while True:
         print("Menu\n----------\n1.  Encode\n2.  Decode\n3.  Quit")  # prints menu for program
